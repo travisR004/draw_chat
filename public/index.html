@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script src='http://code.jquery.com/jquery-1.8.0.min.js' type='text/javascript'></script>
+	<link rel='stylesheet' href='stylesheets/bootstrap.css'></link>
+	<link rel='stylesheet' href='stylesheets/application.css'></link>
+	<script src='/socket.io/socket.io.js' type='text/javascript'></script>
+	<script src='./javascripts/drawing.js' type='text/javascript'></script>
+	<script src='./javascripts/chat.js' type='text/javascript'></script>
+	<script src='./javascripts/chat_ui.js' type='text/javascript'></script>
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-10">
+	 		<div id="cursors"></div>
+	
+	
+			<canvas id="colors_sketch" width="800" height="300"></canvas>
+			<div class="tools colors">
+			  <a href="#colors_sketch" data-color="#f00" style="width: 10px; background: #f00;"></a>
+				<a href="#colors_sketch" data-color="#ff0" style="width: 10px; background: #ff0;">	</a>
+				<a href="#colors_sketch" data-color="#0f0" style="width: 10px; background: #0f0;">	</a>
+				<a href="#colors_sketch" data-color="#0ff" style="width: 10px; background: #0ff;">	</a>
+				<a href="#colors_sketch" data-color="#00f" style="width: 10px; background: #00f;">	</a>
+				<a href="#colors_sketch" data-color="#f0f" style="width: 10px; background: #f0f;">  </a>
+				<a href="#colors_sketch" data-color="#000" style="width: 10px; background: #000;">  </a>
+				<a href="#colors_sketch" data-color="#fff" style="width: 10px; background: #fff;">  </a>
+			</div>
+			<div class="tools sizes">
+				<a href="#colors_sketch" data-size="3" style="background: #ccc">xs</a> 
+				<a href="#colors_sketch" data-size="5" style="background: #ccc">sm</a>
+				<a href="#colors_sketch" data-size="10" style="background: #ccc">md</a>
+				<a href="#colors_sketch" data-size="15" style="background: #ccc">lg</a>
+				<a href="#colors_sketch" data-size="21" style="background: #ccc">xl</a>
+				<a href="#colors_sketch" data-size="150" style="background: #ccc">bo</a>
+			</div>
+	
+			<h1 class="chatroom">Send your friends a message</h1>
+	
+			<div class="message-display"></div>
+	
+			<form class="message-form">
+				<input type="text" id="message" placeholder="Start Chatting...">
+				<button class="btn btn-primary">Submit</button>
+			</form>	
+		</div>
+	</div>
+</body>
+</html>

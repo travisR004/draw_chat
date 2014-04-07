@@ -1,0 +1,30 @@
+body {
+	background: rgba(46, 204, 113, 0.5);
+}
+
+.message-display{
+	width: 800px;
+	min-height: 50px;
+	border: solid 1px;
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 5px;
+}
+
+canvas {
+	border: solid 1px;
+	background: white;
+}
+
+.tools a {
+border: 1px solid black;
+height: 30px;
+line-height: 30px;
+padding: 0 10px;
+vertical-align: middle;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+color: black;
+font-weight: bold;
+}
