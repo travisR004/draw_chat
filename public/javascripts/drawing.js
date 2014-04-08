@@ -39,7 +39,6 @@ $(function(){
 			'left' : data.x,
 			'top' : data.y
 		});
-		
 		if(data.drawing && clients[data.id]){
 			
 			drawLine(clients[data.id].x, clients[data.id].y, data.x, data.y);
