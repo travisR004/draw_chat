@@ -1,5 +1,7 @@
 body {
-	background: rgba(46, 204, 113, 0.5);
+	margin-top: 50px;
+	background: rgba(46, 166, 204, 0.3);
+	color: gray;
 }
 
 .message-display{
@@ -7,9 +9,12 @@ body {
 	min-height: 50px;
 	border: solid 1px;
 	margin-bottom: 10px;
+	border-radius: 5px;
 	background-color: white;
 	padding: 5px;
 }
+
+
 
 canvas {
 	border: solid 1px;
