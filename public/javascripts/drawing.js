@@ -88,8 +88,8 @@ $(function(){
 	});
 
 	function drawLine(fromx, fromy, tox, toy){
-		ctx.moveTo(fromx, fromy);
-		ctx.lineTo(tox, toy);
+		ctx.moveTo(fromx - 50, fromy - 50);
+		ctx.lineTo(tox - 50, toy - 50);
 		ctx.strokeStyle = drawingColor
 		ctx.stroke();
 	}
